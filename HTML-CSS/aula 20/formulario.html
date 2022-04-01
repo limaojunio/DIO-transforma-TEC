@@ -62,10 +62,10 @@
         </td>
       </tr>
       <td>
-        <input type="radio" id="m" name="s1" id="m" checked="true" /><label>Masculino</label>
-        <input type="radio" id="m" name="s1" id="m" checked="true" /><label>Feminino</label>
-        <input type="radio" id="m" name="s1" id="m" checked="true" /><label>Não binário</label>
-        <input type="radio" id="m" name="s1" id="m" checked="true" /><label>Não informar</label>
+        <input type="radio" id="m" name="s1" id="m" /><label>Masculino</label>
+        <input type="radio" id="f" name="s1" id="f" /><label>Feminino</label>
+        <input type="radio" id="nb" name="s1" id="nb" /><label>Não binário</label>
+        <input type="radio" id="n" name="s1" id="n" /><label>Não informar</label>
       </td>
       <tr>
         <td>
@@ -89,10 +89,15 @@
       </tr>
       <tr>
         <td>
-          <br><button type="submit">Cadastrar</button>
-          <button type="reset">Limpar</button>
+          <input type="submit" onclick="sucesso()" value="Cadastrar">
+          <input type="reset" value="Limpar">
         </td>
       </tr>
+      <script>
+        function sucesso() {
+          alert("Cadastro realizado com sucesso!")
+        }
+      </script>
     </table>
   </form>
 </body>

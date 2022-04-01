@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário de cadastro</title>
+</head>
+
+<body>
+  <p>
+  <h2>Formulário de cadastro</h2>
+  </p>
+  <form action="">
+    <table>
+      <tr>
+        <td>
+          <label for="nome">Nome</label>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="text" id="nome" required="true">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="sobrenome">Sobrenome</label>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="text" id="sobrenome" required="true">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="endereco">Endereço</label>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <textarea name="endereco" id="endereco" cols="30" rows="2" required="true"></textarea>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <label for="disciplina">Disciplina</label>
+        </td>
+      </tr>
+      <td>
+        <input type="checkbox" />Programação<br />
+        <input type="checkbox" />Lógica<br />
+        <input type="checkbox" />Algoritmos<br />
+        <input type="checkbox" />Banco de dados<br />
+      </td>
+      <tr>
+        <td>
+          <label for="genero">Gênero</label>
+        </td>
+      </tr>
+      <td>
+        <input type="radio" id="m" name="s1" id="m" checked="true" /><label>Masculino</label>
+        <input type="radio" id="m" name="s1" id="m" checked="true" /><label>Feminino</label>
+        <input type="radio" id="m" name="s1" id="m" checked="true" /><label>Não binário</label>
+        <input type="radio" id="m" name="s1" id="m" checked="true" /><label>Não informar</label>
+      </td>
+      <tr>
+        <td>
+          <label for="datanasc">Data de nascimento</label>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="date" name="datanasc" id="datanasc" required="true">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label type="text" id="Foto do Perfil">Foto do Perfil</label>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="file">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <br><button type="submit">Cadastrar</button>
+          <button type="reset">Limpar</button>
+        </td>
+      </tr>
+    </table>
+  </form>
+</body>
+
+</html>

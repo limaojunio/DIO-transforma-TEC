@@ -12,7 +12,7 @@
   <p>
   <h2>Formulário de Login</h2>
   </p>
-  <form action="" method="post">
+  <form action="">
     <table>
       <tr>
         <td><label for="email">Email</label></td>
@@ -26,9 +26,11 @@
       <tr>
         <td><input type="password" name="senha" id="senha" required="true"></td>
       </tr>
-
       <tr>
-        <td><button on click="document.location='default.asp'">Confirmar</button></td>
+        <td><input type="checkbox" required="true">Lembrar senha</td>
+      </tr>
+      <tr>
+        <td><br><button onclick="document.location='default.asp'">Confirmar</button></td>
       </tr>
     </table>
 

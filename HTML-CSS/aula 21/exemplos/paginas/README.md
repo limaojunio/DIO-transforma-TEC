@@ -2,9 +2,9 @@
 
 ## Arquivos .html
 
-- [Página1](./paginas/pagina1.html)
-- [Página2](./paginas/pagina2.html)
-- [Página3](./paginas/pagina3.html)
+- [Página1](./pagina1.html)
+- [Página2](./pagina2.html)
+- [Página3](./pagina3.html)
 
 ## Arquivos .css
 

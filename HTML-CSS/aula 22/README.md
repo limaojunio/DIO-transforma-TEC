@@ -1,4 +1,4 @@
-#Criação de páginas estilizadas com foco em seletores
+## Criação de páginas estilizada
 
 ## Páginas criadas
 

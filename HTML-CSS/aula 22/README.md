@@ -1,4 +1,4 @@
-## Criação de páginas estilizada
+## Criação de páginas estilizadas
 
 ## Páginas criadas
 

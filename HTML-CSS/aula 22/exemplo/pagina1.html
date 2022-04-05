@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Primeira página com estilos css e seletores</title>
+  <style>
+    div {
+      width: 400px;
+      height: 200px;
+      background-color: burlywood;
+      margin: 10px;
+      padding: 10px;
+      border: 1px solid black
+    }
+
+    /*seletor por classe*/
+    .p1 {
+      color: darkolivegreen;
+      font-size: 30px;
+      text-align: center;
+    }
+
+    /*seletor por id*/
+    #p1 {
+      color: chocolate;
+      font-size: 30px;
+      text-align: center;
+    }
+
+    /*seletor por atributo*/
+    p[name="p3"] {
+      color: darkgoldenrod;
+      font-size: 30px;
+      text-align: center;
+    }
+
+    input[type="text"] {
+      width: 200px;
+      height: 30px;
+      border: 1px solid black;
+      margin: 10px;
+      padding: 10px;
+    }
+
+    input:hover {
+      background-color: rgb(211, 166, 134);
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <p id="p1">Text on first div</p>
+  </div>
+  <div>
+    <p class="p1">Text on second div</p>
+  </div>
+  <div>
+    <p name="p3">Text on third div</p>
+    <input type="text">
+  </div>
+</body>
+
+</html>

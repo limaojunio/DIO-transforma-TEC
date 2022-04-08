@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teste de Grid Layout</title>
+</head>
+<style>
+  .a{
+    background-color: blueviolet;
+  }
+  .b{
+    background-color: rgb(163, 114, 209);
+  }
+  .c{
+    background-color: rgb(187, 154, 219);
+  }
+  .d{
+    background-color: blueviolet;
+  }
+  .e{
+    background-color: rgb(163, 114, 209);
+  }
+  .f{
+    background-color: rgb(187, 154, 219);
+  }
+  .container{
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    grid-gap: 10px;
+    background-color: black;
+  }
+  .element{
+    font-size: 150%;
+  }
+  
+</style>
+<body>
+      <div class="container">
+          <div class="element a">A</div>
+          <div class="element b">B</div> 
+          <div class="element c">C</div>
+          <div class="element d">D</div>
+          <div class="element e">E</div>
+          <div class="element f">F</div>
+      </div>
+</body>
+</html>

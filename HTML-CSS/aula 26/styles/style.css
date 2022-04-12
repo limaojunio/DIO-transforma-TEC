@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -20,7 +20,6 @@ body{
   justify-content: space-around;
   align-items: center;
   overflow: hidden;
-
 }
 
 .left .right, form{
@@ -28,28 +27,31 @@ body{
   align-content: center;
   justify-content: center;
   flex-direction: column;
+
 }
 
 .left{
-  width: 500px;
-  align-items: flex-start;
+  width:500px;
+  align-items: flex-start
 }
 
+/* todas as img da classe left terão esse estilo */
 .left img{
-  height: 106px;
+  height: 106px
 }
 
+/* todos os parágrafos da classe left terão esse estilo */
 .left p{
   font-size: 30px;
   color: #1c1e21;
   height: 200px;
   font-family:'Roboto Condensed', sans-serif;
   position:relative;
-  left: 27px
+  left:27px
 }
 
 .right{
-  width: 400px;
+  width:400px;
 }
 
 form{
@@ -62,17 +64,17 @@ form{
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
-
 form input{
   width: 100%;
-  padding: 15px;
-  border-radius: 5px;
+  padding:15px;
   margin-bottom: 10px;
+  border-radius: 5px;
   border: 1px solid #999;
+  
 }
 
 .right__loginBtn{
-  background-color: #1877f2;
+  background-color:#1877f2;
   padding: 15px;
   text-align: center;
   text-decoration: none;
@@ -81,11 +83,11 @@ form input{
   color: white;
   font-family: 'Arial';
   font-weight: 700;
-  transition: 0.5s; 
+  transition:0.5s;
 }
 
 .right__loginBtn--hover:hover{
-  background-color: #4257b2;
+  background-color: #4257b2
 }
 
 .right__forget{
@@ -93,8 +95,7 @@ form input{
   text-decoration: none;
   color: #1877f2;
   font-family: 'Arial';
-  font-size: 14px;
-  text-align: center;
+  font-size:14px;
 }
 
 .right__sign-up{
@@ -106,24 +107,23 @@ form input{
 }
 
 .right__signupBtn{
-  background-color: #43b72a;
-  padding: 15px;
+  background-color:#42b72a;
+  padding:15px ;
   text-align: center;
   text-decoration: none;
   border-radius: 5px;
   color: white;
   font-size: 17px;
   font-family: 'Arial';
-  font-weight: 600px;
-  transition: 0.5s;
+  font-weight: 600;
+  transition:0.5s;
 }
 
 .right__signupBtn:hover{
-  background-color: green;
+  background-color: green
 }
 
 .right p{
-  font-size: 15px;
+  font-size:15px;
   font-family: 'Arial';
 }
-
